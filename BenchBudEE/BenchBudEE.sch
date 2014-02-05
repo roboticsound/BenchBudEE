@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date "5 feb 2014"
 Rev ""
@@ -68,8 +68,9 @@ F0 "Relay" 50
 F1 "Relay.sch" 50
 F2 "DIN+" I L 7400 4250 60 
 F3 "DIN-" O L 7400 4700 60 
-F4 "RELAY-" O R 9200 4250 60 
-F5 "RELAY+" I R 9200 4650 60 
+F4 "NO" B R 9200 4450 60 
+F5 "NC" B R 9200 4700 60 
+F6 "COM" B R 9200 4200 60 
 $EndSheet
 $Sheet
 S 7400 5350 1800 1100
@@ -120,5 +121,11 @@ F4 "MISO" I L 7400 1550 60
 F5 "MOSI" I L 7400 1400 60 
 F6 "SCLK" I L 7400 1750 60 
 F7 "CS_N" I L 7400 1950 60 
+$EndSheet
+$Sheet
+S 4500 1050 1650 1350
+U 52F2C572
+F0 "PowerAdjustmentMonitor" 50
+F1 "PowerAdjustmentMonitor.sch" 50
 $EndSheet
 $EndSCHEMATC
