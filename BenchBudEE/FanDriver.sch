@@ -29,12 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:CE Library
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 7 8
 Title ""
 Date "5 feb 2014"
 Rev ""
@@ -282,4 +283,17 @@ F 3 "" H 7800 1600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	7800 1600 7800 1850
+$Comp
+L +12V #PWR?
+U 1 1 52F2ACAE
+P 4650 1200
+F 0 "#PWR?" H 4650 1150 20  0001 C CNN
+F 1 "+12V" H 4650 1300 30  0000 C CNN
+F 2 "" H 4650 1200 60  0000 C CNN
+F 3 "" H 4650 1200 60  0000 C CNN
+	1    4650 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1250 4650 1200
 $EndSCHEMATC
