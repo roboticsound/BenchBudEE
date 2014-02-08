@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CE Library
+LIBS:atx_24pin_power
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
-Date "6 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,16 +46,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9650 2550 2    60   Input ~ 0
-PWR+
-Text HLabel 9650 2700 2    60   Input ~ 0
-PWR-
+Text HLabel 9650 2550 2    60   Output ~ 0
+FAN_OUT+
+Text HLabel 9650 2700 2    60   Output ~ 0
+FAN_OUT-
 Text HLabel 9650 2850 2    60   Input ~ 0
-TACH
+TACH_IN
 Text HLabel 1700 4550 0    60   Output ~ 0
-TACH_OUT
+TACH_MEASURE
 Text HLabel 1600 3950 0    60   Input ~ 0
-FAN_IN
+FAN_EN_N
 $Comp
 L LM324 U?
 U 1 1 52F28A08

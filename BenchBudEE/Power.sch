@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CE Library
+LIBS:atx_24pin_power
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title ""
-Date "6 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""

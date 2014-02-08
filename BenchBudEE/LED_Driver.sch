@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CE Library
+LIBS:atx_24pin_power
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 3 9
 Title ""
-Date "6 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,9 +49,9 @@ $EndDescr
 Text HLabel 3750 2950 0    60   Input ~ 0
 LED_EN_PWM
 Text HLabel 9500 1950 2    60   Output ~ 0
-String+
-Text HLabel 9550 2950 2    60   Input ~ 0
-String-
+LED_STRING+
+Text HLabel 9550 2950 2    60   Output ~ 0
+LED_STRING-
 $Comp
 L AP5726 U?
 U 1 1 52F3F91E
