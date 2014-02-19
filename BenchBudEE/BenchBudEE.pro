@@ -1,13 +1,11 @@
-update=06/02/2014 20:49:01
+update=17/02/2014 13:33:20
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../BenchBudEE
@@ -87,3 +85,5 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=C:/Users/Louis/Documents/Electronics/Contextual Electronics/Footprints
+[general]
+version=1
