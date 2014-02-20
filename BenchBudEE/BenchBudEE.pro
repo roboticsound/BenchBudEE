@@ -1,6 +1,6 @@
-update=17/02/2014 13:33:20
+update=19/02/2014 23:08:47
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -47,14 +47,16 @@ LibName29=contrib
 LibName30=valves
 LibName31=C:/Users/Louis/Documents/Electronics/Contextual Electronics/CE Library
 LibName32=atx_24pin_power
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=2.500000000000
+PadSizeV=1.700000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -85,5 +87,4 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=C:/Users/Louis/Documents/Electronics/Contextual Electronics/Footprints
-[general]
-version=1
+LibName18=BenchBudEE
