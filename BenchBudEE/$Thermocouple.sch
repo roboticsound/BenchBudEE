@@ -785,4 +785,5 @@ Wire Wire Line
 	5200 4550 5200 4500
 Wire Wire Line
 	5200 2800 5200 4000
+Connection ~ -5000 2900
 $EndSCHEMATC
