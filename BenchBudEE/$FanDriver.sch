@@ -64,7 +64,12 @@ P 6150 2050
 F 0 "U4" H 6200 2250 60  0000 C CNN
 F 1 "OPA4170" H 6300 1850 50  0000 C CNN
 F 2 "" H 6150 2050 60  0000 C CNN
-F 3 "" H 6150 2050 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa4170.pdf" H 6150 2050 60  0001 C CNN
+F 4 "Texas Instruments" H 6150 2050 60  0001 C CNN "MFG Name"
+F 5 "OPA4170AIDR" H 6150 2050 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 6150 2050 60  0001 C CNN "Distributor"
+F 7 "296-29664-1-ND" H 6150 2050 60  0001 C CNN "Distributor Part Number"
+F 8 "www.digikey.com/product-detail/en/OPA4170AIDR/296-29664-1-ND/2762167" H 6150 2050 60  0001 C CNN "Distributor Part Link"
 	3    6150 2050
 	1    0    0    -1  
 $EndComp

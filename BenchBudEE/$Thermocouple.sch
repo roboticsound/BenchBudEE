@@ -1,0 +1,788 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CE Library
+LIBS:atx_24pin_power
+LIBS:BenchBudEE
+LIBS:BenchBudEE-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title ""
+Date "21 feb 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 9750 1600 2    60   Input ~ 0
+TC IN+
+Text HLabel 9750 3800 2    60   Input ~ 0
+TC IN-
+Text HLabel 2400 2500 0    60   Output ~ 0
+MISO
+Text HLabel 2400 2800 0    60   Input ~ 0
+MOSI
+Text HLabel 2400 2900 0    60   Input ~ 0
+SCLK
+Text HLabel 2400 3000 0    60   Input ~ 0
+~CS
+$Comp
+L R R18
+U 1 1 52F17BC8
+P 7500 3400
+F 0 "R18" V 7580 3400 40  0000 C CNN
+F 1 "R" V 7507 3401 40  0000 C CNN
+F 2 "~" V 7430 3400 30  0000 C CNN
+F 3 "~" H 7500 3400 30  0000 C CNN
+	1    7500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM324 U4
+U 4 1 52F17BD7
+P 8150 1700
+F 0 "U4" H 8200 1900 60  0000 C CNN
+F 1 "OPA4170" H 8300 1500 50  0000 C CNN
+F 2 "" H 8150 1700 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa4170.pdf" H 8150 1700 60  0001 C CNN
+F 4 "Texas Instruments" H 8150 1700 60  0001 C CNN "MFG Name"
+F 5 "OPA4170AIDR" H 8150 1700 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 8150 1700 60  0001 C CNN "Distributor"
+F 7 "296-29664-1-ND" H 8150 1700 60  0001 C CNN "Distributor Part Number"
+F 8 "www.digikey.com/product-detail/en/OPA4170AIDR/296-29664-1-ND/2762167" H 8150 1700 60  0001 C CNN "Distributor Part Link"
+	4    8150 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LM324 U4
+U 1 1 52F17BE4
+P 8150 3700
+F 0 "U4" H 8200 3900 60  0000 C CNN
+F 1 "OPA4170" H 8300 3500 50  0000 C CNN
+F 2 "" H 8150 3700 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa4170.pdf" H 8150 3700 60  0001 C CNN
+F 4 "Texas Instruments" H 8150 3700 60  0001 C CNN "MFG Name"
+F 5 "OPA4170AIDR" H 8150 3700 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 8150 3700 60  0001 C CNN "Distributor"
+F 7 "296-29664-1-ND" H 8150 3700 60  0001 C CNN "Distributor Part Number"
+F 8 "www.digikey.com/product-detail/en/OPA4170AIDR/296-29664-1-ND/2762167" H 8150 3700 60  0001 C CNN "Distributor Part Link"
+	1    8150 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 52F17BF9
+P 9250 3100
+F 0 "R17" V 9330 3100 40  0000 C CNN
+F 1 "R" V 9257 3101 40  0000 C CNN
+F 2 "~" V 9180 3100 30  0000 C CNN
+F 3 "~" H 9250 3100 30  0000 C CNN
+	1    9250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 52F17BFF
+P 7500 2000
+F 0 "R16" V 7580 2000 40  0000 C CNN
+F 1 "R" V 7507 2001 40  0000 C CNN
+F 2 "~" V 7430 2000 30  0000 C CNN
+F 3 "~" H 7500 2000 30  0000 C CNN
+	1    7500 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L LM324 U4
+U 2 1 52F17C19
+P 6200 2700
+F 0 "U4" H 6250 2900 60  0000 C CNN
+F 1 "OPA4170" H 6350 2500 50  0000 C CNN
+F 2 "" H 6200 2700 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa4170.pdf" H 6200 2700 60  0001 C CNN
+F 4 "Texas Instruments" H 6200 2700 60  0001 C CNN "MFG Name"
+F 5 "OPA4170AIDR" H 6200 2700 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 6200 2700 60  0001 C CNN "Distributor"
+F 7 "296-29664-1-ND" H 6200 2700 60  0001 C CNN "Distributor Part Number"
+F 8 "www.digikey.com/product-detail/en/OPA4170AIDR/296-29664-1-ND/2762167" H 6200 2700 60  0001 C CNN "Distributor Part Link"
+	2    6200 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R14
+U 1 1 52F17C38
+P 7150 1700
+F 0 "R14" V 7230 1700 40  0000 C CNN
+F 1 "R" V 7157 1701 40  0000 C CNN
+F 2 "~" V 7080 1700 30  0000 C CNN
+F 3 "~" H 7150 1700 30  0000 C CNN
+	1    7150 1700
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R12
+U 1 1 52F17C3E
+P 6450 1700
+F 0 "R12" V 6530 1700 40  0000 C CNN
+F 1 "R" V 6457 1701 40  0000 C CNN
+F 2 "~" V 6380 1700 30  0000 C CNN
+F 3 "~" H 6450 1700 30  0000 C CNN
+	1    6450 1700
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R15
+U 1 1 52F17C4E
+P 7150 3700
+F 0 "R15" V 7230 3700 40  0000 C CNN
+F 1 "R" V 7157 3701 40  0000 C CNN
+F 2 "~" V 7080 3700 30  0000 C CNN
+F 3 "~" H 7150 3700 30  0000 C CNN
+	1    7150 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R13
+U 1 1 52F17C54
+P 6450 3700
+F 0 "R13" V 6530 3700 40  0000 C CNN
+F 1 "R" V 6457 3701 40  0000 C CNN
+F 2 "~" V 6380 3700 30  0000 C CNN
+F 3 "~" H 6450 3700 30  0000 C CNN
+	1    6450 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L -12V #PWR42
+U 1 1 52F17FFA
+P 8250 3250
+F 0 "#PWR42" H 8250 3380 20  0001 C CNN
+F 1 "-12V" H 8250 3350 30  0000 C CNN
+F 2 "" H 8250 3250 60  0000 C CNN
+F 3 "" H 8250 3250 60  0000 C CNN
+	1    8250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR41
+U 1 1 52F18007
+P 8250 2150
+F 0 "#PWR41" H 8250 2280 20  0001 C CNN
+F 1 "-12V" H 8250 2250 30  0000 C CNN
+F 2 "" H 8250 2150 60  0000 C CNN
+F 3 "" H 8250 2150 60  0000 C CNN
+	1    8250 2150
+	1    0    0    1   
+$EndComp
+$Comp
+L -12V #PWR38
+U 1 1 52F1800D
+P 6300 2200
+F 0 "#PWR38" H 6300 2330 20  0001 C CNN
+F 1 "-12V" H 6300 2300 30  0000 C CNN
+F 2 "" H 6300 2200 60  0000 C CNN
+F 3 "" H 6300 2200 60  0000 C CNN
+	1    6300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR43
+U 1 1 52F18082
+P 8250 4150
+F 0 "#PWR43" H 8250 4100 20  0001 C CNN
+F 1 "+12V" H 8250 4250 30  0000 C CNN
+F 2 "" H 8250 4150 60  0000 C CNN
+F 3 "" H 8250 4150 60  0000 C CNN
+	1    8250 4150
+	1    0    0    1   
+$EndComp
+$Comp
+L +12V #PWR40
+U 1 1 52F1808F
+P 8250 1250
+F 0 "#PWR40" H 8250 1200 20  0001 C CNN
+F 1 "+12V" H 8250 1350 30  0000 C CNN
+F 2 "" H 8250 1250 60  0000 C CNN
+F 3 "" H 8250 1250 60  0000 C CNN
+	1    8250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR39
+U 1 1 52F18095
+P 6300 3200
+F 0 "#PWR39" H 6300 3150 20  0001 C CNN
+F 1 "+12V" H 6300 3300 30  0000 C CNN
+F 2 "" H 6300 3200 60  0000 C CNN
+F 3 "" H 6300 3200 60  0000 C CNN
+	1    6300 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L ZENER D5
+U 1 1 52F18276
+P 9800 5400
+F 0 "D5" H 9800 5500 50  0000 C CNN
+F 1 "LMT84" H 9800 5300 40  0000 C CNN
+F 2 "~" H 9800 5400 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmt84.pdf" H 9800 5400 60  0001 C CNN
+F 4 "Texas Instruments" H 9800 5400 60  0001 C CNN "MFG Name"
+F 5 "LMT84DCKT" H 9800 5400 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 9800 5400 60  0001 C CNN "Distributor"
+F 7 "296-35727-2-ND" H 9800 5400 60  0001 C CNN "Distributor Part Number"
+F 8 "http://www.digikey.com/product-detail/en/LMT84DCKT/296-35727-2-ND/3974441" H 9800 5400 60  0001 C CNN "Distributor Part Link"
+	1    9800 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR44
+U 1 1 52F18283
+P 9800 5100
+F 0 "#PWR44" H 9800 5050 20  0001 C CNN
+F 1 "+12V" H 9800 5200 30  0000 C CNN
+F 2 "" H 9800 5100 60  0000 C CNN
+F 3 "" H 9800 5100 60  0000 C CNN
+	1    9800 5100
+	-1   0    0    -1  
+$EndComp
+Text Notes 9950 5450 0    60   ~ 0
+General Temp Sensor
+$Comp
+L AGND #PWR34
+U 1 1 52F183E0
+P 5200 4550
+F 0 "#PWR34" H 5200 4550 40  0001 C CNN
+F 1 "AGND" H 5200 4480 50  0000 C CNN
+F 2 "" H 5200 4550 60  0000 C CNN
+F 3 "" H 5200 4550 60  0000 C CNN
+	1    5200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR33
+U 1 1 52F18458
+P 4800 5900
+F 0 "#PWR33" H 4800 5900 40  0001 C CNN
+F 1 "AGND" H 4800 5830 50  0000 C CNN
+F 2 "" H 4800 5900 60  0000 C CNN
+F 3 "" H 4800 5900 60  0000 C CNN
+	1    4800 5900
+	1    0    0    -1  
+$EndComp
+Text Notes 5750 1500 0    60   ~ 0
+Instrumentation Amp
+Text Notes 10250 2650 0    60   ~ 0
+Analogue/TC Input
+$Comp
+L MCP3901 U5
+U 1 1 530670AE
+P 3700 2650
+F 0 "U5" H 4250 1800 60  0000 C CNN
+F 1 "MCP3901" H 3700 2600 60  0000 C CNN
+F 2 "" H 3400 2200 60  0000 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22192d.pdf" H 3400 2200 60  0001 C CNN
+F 4 "Microchip Technology" H 3700 2650 60  0001 C CNN "MFG Name"
+F 5 "MCP3901A0-I/SS" H 3700 2650 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 3700 2650 60  0001 C CNN "Distributor"
+F 7 "MCP3901A0-I/SS-ND" H 3700 2650 60  0001 C CNN "Distributor Part Number"
+F 8 "http://www.digikey.com/product-detail/en/MCP3901A0-I%2FSS/MCP3901A0-I%2FSS-ND/2179119" H 3700 2650 60  0001 C CNN "Distributor Part Link"
+	1    3700 2650
+	-1   0    0    -1  
+$EndComp
+Text Notes 1400 1700 0    60   ~ 0
+16-24Bit ADC
+$Comp
+L R R44
+U 1 1 530672BE
+P 9450 3100
+F 0 "R44" V 9530 3100 40  0000 C CNN
+F 1 "R" V 9457 3101 40  0000 C CNN
+F 2 "~" V 9380 3100 30  0000 C CNN
+F 3 "~" H 9450 3100 30  0000 C CNN
+	1    9450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R45
+U 1 1 530672C4
+P 9650 3100
+F 0 "R45" V 9730 3100 40  0000 C CNN
+F 1 "R" V 9657 3101 40  0000 C CNN
+F 2 "~" V 9580 3100 30  0000 C CNN
+F 3 "~" H 9650 3100 30  0000 C CNN
+	1    9650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3X2 P2
+U 1 1 530673CD
+P 8650 2750
+F 0 "P2" H 8650 3000 50  0000 C CNN
+F 1 "CONN_3X2" V 8650 2800 40  0000 C CNN
+F 2 "" H 8650 2750 60  0000 C CNN
+F 3 "" H 8650 2750 60  0000 C CNN
+	1    8650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 530693BB
+P 5450 3000
+F 0 "C5" H 5450 3100 40  0000 L CNN
+F 1 "C" H 5456 2915 40  0000 L CNN
+F 2 "~" H 5488 2850 30  0000 C CNN
+F 3 "~" H 5450 3000 60  0000 C CNN
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMT84 U6
+U 1 1 530697A7
+P 6100 4900
+F 0 "U6" H 6300 4600 60  0000 C CNN
+F 1 "LMT84" H 5950 5150 60  0000 C CNN
+F 2 "" H 6100 4900 60  0000 C CNN
+F 3 "" H 6100 4900 60  0000 C CNN
+	1    6100 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 5306996A
+P 6650 4950
+F 0 "C10" H 6650 5050 40  0000 L CNN
+F 1 "C" H 6656 4865 40  0000 L CNN
+F 2 "~" H 6688 4800 30  0000 C CNN
+F 3 "~" H 6650 4950 60  0000 C CNN
+	1    6650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR37
+U 1 1 53069972
+P 6100 4100
+F 0 "#PWR37" H 6100 4190 20  0001 C CNN
+F 1 "+5V" H 6100 4190 30  0000 C CNN
+F 2 "" H 6100 4100 60  0000 C CNN
+F 3 "" H 6100 4100 60  0000 C CNN
+	1    6100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 53069A90
+P 5950 3150
+F 0 "C9" H 5950 3250 40  0000 L CNN
+F 1 "C" H 5956 3065 40  0000 L CNN
+F 2 "~" H 5988 3000 30  0000 C CNN
+F 3 "~" H 5950 3150 60  0000 C CNN
+	1    5950 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AGND #PWR36
+U 1 1 53069AF1
+P 5600 3400
+F 0 "#PWR36" H 5600 3400 40  0001 C CNN
+F 1 "AGND" H 5600 3330 50  0000 C CNN
+F 2 "" H 5600 3400 60  0000 C CNN
+F 3 "" H 5600 3400 60  0000 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 53069BC5
+P 5950 2250
+F 0 "C8" H 5950 2350 40  0000 L CNN
+F 1 "C" H 5956 2165 40  0000 L CNN
+F 2 "~" H 5988 2100 30  0000 C CNN
+F 3 "~" H 5950 2250 60  0000 C CNN
+	1    5950 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 2250 7500 2350
+Wire Wire Line
+	8650 3800 9750 3800
+Wire Wire Line
+	9750 1600 8650 1600
+Wire Wire Line
+	8650 1800 8800 1800
+Wire Wire Line
+	8800 1800 8800 2350
+Wire Wire Line
+	8800 2350 7500 2350
+Wire Wire Line
+	7400 1700 7650 1700
+Wire Wire Line
+	7500 1700 7500 1750
+Wire Wire Line
+	7500 3050 7500 3150
+Wire Wire Line
+	7500 3050 8800 3050
+Wire Wire Line
+	8800 3050 8800 3600
+Wire Wire Line
+	8800 3600 8650 3600
+Wire Wire Line
+	7400 3700 7650 3700
+Wire Wire Line
+	7500 3700 7500 3650
+Connection ~ 7500 3700
+Connection ~ 7500 1700
+Wire Wire Line
+	6700 2600 6800 2600
+Wire Wire Line
+	6800 2600 6800 1700
+Wire Wire Line
+	6700 1700 6900 1700
+Wire Wire Line
+	6700 2800 6800 2800
+Wire Wire Line
+	6800 2800 6800 3700
+Wire Wire Line
+	6700 3700 6900 3700
+Connection ~ 6800 1700
+Wire Wire Line
+	6200 1700 5200 1700
+Wire Wire Line
+	5200 1700 5200 2700
+Connection ~ 5200 2700
+Connection ~ 6800 3700
+Wire Wire Line
+	5200 3700 6200 3700
+Wire Wire Line
+	6300 2200 6300 2300
+Wire Wire Line
+	8250 2100 8250 2150
+Wire Wire Line
+	8250 3300 8250 3250
+Wire Wire Line
+	6300 3100 6300 3200
+Wire Wire Line
+	8250 4100 8250 4150
+Wire Wire Line
+	8250 1300 8250 1250
+Connection ~ 5200 3700
+Wire Wire Line
+	9800 5100 9800 5200
+Connection ~ 9800 5150
+Wire Wire Line
+	9800 5600 9800 5700
+Wire Wire Line
+	4600 2800 5200 2800
+Wire Wire Line
+	4600 2700 5700 2700
+Wire Wire Line
+	2400 3000 2800 3000
+Wire Wire Line
+	2400 2900 2800 2900
+Wire Wire Line
+	2400 2800 2800 2800
+Wire Wire Line
+	2400 2500 2800 2500
+Wire Wire Line
+	9050 2800 9250 2800
+Wire Wire Line
+	9250 2800 9250 2850
+Wire Wire Line
+	9050 2700 9450 2700
+Wire Wire Line
+	9450 2700 9450 2850
+Wire Wire Line
+	9050 2600 9650 2600
+Wire Wire Line
+	9650 2600 9650 2850
+Connection ~ 8800 3400
+Wire Wire Line
+	8800 3400 9650 3400
+Wire Wire Line
+	9250 3400 9250 3350
+Wire Wire Line
+	9450 3400 9450 3350
+Connection ~ 9250 3400
+Wire Wire Line
+	9650 3400 9650 3350
+Connection ~ 9450 3400
+Wire Wire Line
+	8150 2350 8150 2800
+Wire Wire Line
+	8150 2600 8250 2600
+Connection ~ 8150 2350
+Wire Wire Line
+	8150 2700 8250 2700
+Connection ~ 8150 2600
+Wire Wire Line
+	8150 2800 8250 2800
+Connection ~ 8150 2700
+Wire Wire Line
+	5450 2800 5450 2700
+Connection ~ 5450 2700
+Connection ~ 5200 3300
+Wire Wire Line
+	5200 3300 5450 3300
+Wire Wire Line
+	5450 3300 5450 3200
+Wire Wire Line
+	4600 3150 4800 3150
+Wire Wire Line
+	4800 5600 6650 5600
+Wire Wire Line
+	6000 5600 6000 5450
+Wire Wire Line
+	6100 5600 6100 5450
+Connection ~ 6000 5600
+Wire Wire Line
+	6200 5600 6200 5450
+Connection ~ 6100 5600
+Connection ~ 4800 5600
+Wire Wire Line
+	5550 4900 5000 4900
+Wire Wire Line
+	5000 4900 5000 3050
+Wire Wire Line
+	5000 3050 4600 3050
+Wire Wire Line
+	6100 4100 6100 4400
+Wire Wire Line
+	6650 4750 6650 4250
+Wire Wire Line
+	6650 4250 6100 4250
+Connection ~ 6100 4250
+Wire Wire Line
+	6650 5600 6650 5150
+Connection ~ 6200 5600
+Wire Wire Line
+	6150 2250 6300 2250
+Connection ~ 6300 2250
+$Comp
+L AGND #PWR35
+U 1 1 53069CB1
+P 5600 2500
+F 0 "#PWR35" H 5600 2500 40  0001 C CNN
+F 1 "AGND" H 5600 2430 50  0000 C CNN
+F 2 "" H 5600 2500 60  0000 C CNN
+F 3 "" H 5600 2500 60  0000 C CNN
+	1    5600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2500 5600 2250
+Wire Wire Line
+	5600 2250 5750 2250
+Wire Wire Line
+	6300 3150 6150 3150
+Connection ~ 6300 3150
+Wire Wire Line
+	5750 3150 5600 3150
+Wire Wire Line
+	5600 3150 5600 3400
+Text GLabel 4750 2100 1    60   Input ~ 0
+REF+
+Text GLabel 4900 2100 1    60   Input ~ 0
+REF-
+Wire Wire Line
+	4600 2300 4750 2300
+Wire Wire Line
+	4750 2300 4750 2100
+Wire Wire Line
+	4600 2400 4900 2400
+Wire Wire Line
+	4900 2400 4900 2100
+$Comp
+L +5V #PWR30
+U 1 1 53069FB2
+P 3850 1300
+F 0 "#PWR30" H 3850 1390 20  0001 C CNN
+F 1 "+5V" H 3850 1390 30  0000 C CNN
+F 2 "" H 3850 1300 60  0000 C CNN
+F 3 "" H 3850 1300 60  0000 C CNN
+	1    3850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 53069FB8
+P 4150 1450
+F 0 "C7" H 4150 1550 40  0000 L CNN
+F 1 "C" H 4156 1365 40  0000 L CNN
+F 2 "~" H 4188 1300 30  0000 C CNN
+F 3 "~" H 4150 1450 60  0000 C CNN
+	1    4150 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3850 1300 3850 1600
+Wire Wire Line
+	3950 1450 3850 1450
+Connection ~ 3850 1450
+$Comp
+L AGND #PWR32
+U 1 1 5306A095
+P 4450 1600
+F 0 "#PWR32" H 4450 1600 40  0001 C CNN
+F 1 "AGND" H 4450 1530 50  0000 C CNN
+F 2 "" H 4450 1600 60  0000 C CNN
+F 3 "" H 4450 1600 60  0000 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1450 4450 1450
+Wire Wire Line
+	4450 1450 4450 1600
+$Comp
+L C C6
+U 1 1 5306A121
+P 3200 1450
+F 0 "C6" H 3200 1550 40  0000 L CNN
+F 1 "C" H 3206 1365 40  0000 L CNN
+F 2 "~" H 3238 1300 30  0000 C CNN
+F 3 "~" H 3200 1450 60  0000 C CNN
+	1    3200 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 1450 3500 1450
+Wire Wire Line
+	3500 1450 3500 1600
+$Comp
+L AGND #PWR28
+U 1 1 5306A214
+P 2900 1600
+F 0 "#PWR28" H 2900 1600 40  0001 C CNN
+F 1 "AGND" H 2900 1530 50  0000 C CNN
+F 2 "" H 2900 1600 60  0000 C CNN
+F 3 "" H 2900 1600 60  0000 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1450 2900 1450
+Wire Wire Line
+	2900 1450 2900 1600
+$Comp
+L AGND #PWR29
+U 1 1 5306A29D
+P 3500 4000
+F 0 "#PWR29" H 3500 4000 40  0001 C CNN
+F 1 "AGND" H 3500 3930 50  0000 C CNN
+F 2 "" H 3500 4000 60  0000 C CNN
+F 3 "" H 3500 4000 60  0000 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4000 3500 3700
+$Comp
+L AGND #PWR31
+U 1 1 5306A328
+P 3850 4000
+F 0 "#PWR31" H 3850 4000 40  0001 C CNN
+F 1 "AGND" H 3850 3930 50  0000 C CNN
+F 2 "" H 3850 4000 60  0000 C CNN
+F 3 "" H 3850 4000 60  0000 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4000 3850 3700
+Text HLabel 2400 2400 0    60   Output ~ 0
+~DR
+Wire Wire Line
+	2400 2400 2800 2400
+Text HLabel 2400 2700 0    60   Input ~ 0
+~RESET
+Wire Wire Line
+	2400 2700 2800 2700
+$Comp
+L CONN_2 P3
+U 1 1 53076F09
+P 2300 3250
+F 0 "P3" V 2250 3250 40  0000 C CNN
+F 1 "CONN_2" V 2350 3250 40  0000 C CNN
+F 2 "" H 2300 3250 60  0000 C CNN
+F 3 "" H 2300 3250 60  0000 C CNN
+	1    2300 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 3350 2650 3300
+Wire Wire Line
+	2650 3300 2800 3300
+Wire Wire Line
+	2650 3150 2650 3200
+Wire Wire Line
+	2650 3200 2800 3200
+Text Label 4600 2700 0    60   ~ 0
+CH0+
+Text Label 4600 2800 0    60   ~ 0
+CH0-
+Text Label 4600 3150 0    60   ~ 0
+CH1-
+Text Label 4600 3050 0    60   ~ 0
+Ch1+
+$Comp
+L R R47
+U 1 1 530773E8
+P 4800 5250
+F 0 "R47" V 4880 5250 40  0000 C CNN
+F 1 "0R" V 4807 5251 40  0000 C CNN
+F 2 "~" V 4730 5250 30  0000 C CNN
+F 3 "~" H 4800 5250 30  0000 C CNN
+	1    4800 5250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 5500 4800 5900
+Wire Wire Line
+	4800 3150 4800 5000
+$Comp
+L R R48
+U 1 1 53077594
+P 5200 4250
+F 0 "R48" V 5280 4250 40  0000 C CNN
+F 1 "0R" V 5207 4251 40  0000 C CNN
+F 2 "~" V 5130 4250 30  0000 C CNN
+F 3 "~" H 5200 4250 30  0000 C CNN
+	1    5200 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4550 5200 4500
+Wire Wire Line
+	5200 2800 5200 4000
+$EndSCHEMATC

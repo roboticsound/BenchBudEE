@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:CE Library
 LIBS:atx_24pin_power
+LIBS:BenchBudEE
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "19 feb 2014"
+Date "20 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -127,10 +128,10 @@ F 3 "~" H 7450 4600 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR01
 U 1 1 52F2A023
 P 7450 5350
-F 0 "#PWR2" H 7450 5350 30  0001 C CNN
+F 0 "#PWR01" H 7450 5350 30  0001 C CNN
 F 1 "GND" H 7450 5280 30  0001 C CNN
 F 2 "" H 7450 5350 60  0000 C CNN
 F 3 "" H 7450 5350 60  0000 C CNN
@@ -171,10 +172,10 @@ F 3 "~" H 3800 3950 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +12P #PWR1
+L +12P #PWR02
 U 1 1 52F2A164
 P 6600 1900
-F 0 "#PWR1" H 6600 1870 30  0001 C CNN
+F 0 "#PWR02" H 6600 1870 30  0001 C CNN
 F 1 "+12P" H 6600 2000 30  0000 C CNN
 F 2 "" H 6600 1900 60  0000 C CNN
 F 3 "" H 6600 1900 60  0000 C CNN
