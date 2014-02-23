@@ -37,9 +37,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 4 9
 Title ""
-Date "20 feb 2014"
+Date "23 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,61 +47,179 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2050 2350 0    60   Input ~ 0
+Text HLabel 4850 2250 0    60   Input ~ 0
 V+_ADJ
-Text HLabel 2050 2550 0    60   Input ~ 0
+Text HLabel 4850 2450 0    60   Input ~ 0
 V-_ADJ
-Text HLabel 2000 2900 0    60   Output ~ 0
+Text HLabel 4850 3550 0    60   Output ~ 0
 FAN_OUT+
-Text HLabel 2000 3050 0    60   Output ~ 0
+Text HLabel 4850 3750 0    60   Output ~ 0
 FAN_OUT-
-Text HLabel 2000 3450 0    60   Input ~ 0
+Text HLabel 4850 3200 0    60   Input ~ 0
 TACH_IN
-Text HLabel 1950 4050 0    60   Output ~ 0
+Text HLabel 4850 2800 0    60   Output ~ 0
 LED_STRING+
-Text HLabel 2000 4250 0    60   Input ~ 0
+Text HLabel 4850 3000 0    60   Input ~ 0
 LED_STRING-
-Text HLabel 1900 4800 0    60   Input ~ 0
+Text HLabel 4850 4100 0    60   Input ~ 0
 TC_IN+
-Text HLabel 1850 5000 0    60   Input ~ 0
+Text HLabel 4850 4300 0    60   Input ~ 0
 TC_IN-
-Text HLabel 2200 6300 0    60   BiDi ~ 0
+Text HLabel 5250 5550 0    60   BiDi ~ 0
 RELAY_COM
-Text HLabel 2150 6450 0    60   BiDi ~ 0
+Text HLabel 5250 5300 0    60   BiDi ~ 0
 RELAY_NO
-Text HLabel 2150 6650 0    60   BiDi ~ 0
+Text HLabel 5250 5800 0    60   BiDi ~ 0
 RELAY_NC
 $Comp
 L +5V #PWR07
 U 1 1 52F4C602
-P 2050 1350
-F 0 "#PWR07" H 2050 1440 20  0001 C CNN
-F 1 "+5V" H 2050 1440 30  0000 C CNN
-F 2 "" H 2050 1350 60  0000 C CNN
-F 3 "" H 2050 1350 60  0000 C CNN
-	1    2050 1350
+P 4850 1500
+F 0 "#PWR07" H 4850 1590 20  0001 C CNN
+F 1 "+5V" H 4850 1590 30  0000 C CNN
+F 2 "" H 4850 1500 60  0000 C CNN
+F 3 "" H 4850 1500 60  0000 C CNN
+	1    4850 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR08
 U 1 1 52F4C611
-P 2300 1350
-F 0 "#PWR08" H 2300 1310 30  0001 C CNN
-F 1 "+3.3V" H 2300 1460 30  0000 C CNN
-F 2 "" H 2300 1350 60  0000 C CNN
-F 3 "" H 2300 1350 60  0000 C CNN
-	1    2300 1350
+P 4850 1250
+F 0 "#PWR08" H 4850 1210 30  0001 C CNN
+F 1 "+3.3V" H 4850 1360 30  0000 C CNN
+F 2 "" H 4850 1250 60  0000 C CNN
+F 3 "" H 4850 1250 60  0000 C CNN
+	1    4850 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR09
 U 1 1 52F4C620
-P 2100 1650
-F 0 "#PWR09" H 2100 1650 30  0001 C CNN
-F 1 "GND" H 2100 1580 30  0001 C CNN
-F 2 "" H 2100 1650 60  0000 C CNN
-F 3 "" H 2100 1650 60  0000 C CNN
-	1    2100 1650
+P 4850 1800
+F 0 "#PWR09" H 4850 1800 30  0001 C CNN
+F 1 "GND" H 4850 1730 30  0001 C CNN
+F 2 "" H 4850 1800 60  0000 C CNN
+F 3 "" H 4850 1800 60  0000 C CNN
+	1    4850 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_12 P4
+U 1 1 5307A0FF
+P 6850 2850
+F 0 "P4" V 6800 2850 60  0000 C CNN
+F 1 "12 Pin Terminal Block" V 6900 2850 60  0000 C CNN
+F 2 "" H 6850 2850 60  0000 C CNN
+F 3 "http://www.on-shore.com/sites/default/files/manuals/OSTTEXX0164.pdf" H 6850 2850 60  0001 C CNN
+F 4 "On Shore Technology Inc" H 6850 2850 60  0001 C CNN "MFG Name"
+F 5 "OSTTE120104" H 6850 2850 60  0001 C CNN "MFG Part Number"
+F 6 "DIgiKey" H 6850 2850 60  0001 C CNN "Distributor"
+F 7 "ED2737-ND" H 6850 2850 60  0001 C CNN "Distributor Part Number"
+F 8 "http://www.digikey.com/product-detail/en/OSTTE120104/ED2737-ND/2351813" H 6850 2850 60  0001 C CNN "Distributor Part Link"
+	1    6850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2300 6250 2300
+Wire Wire Line
+	6250 2300 6250 1300
+Wire Wire Line
+	6250 1300 4850 1300
+Wire Wire Line
+	4850 1300 4850 1250
+Wire Wire Line
+	4850 1500 6100 1500
+Wire Wire Line
+	6100 1500 6100 2400
+Wire Wire Line
+	6100 2400 6500 2400
+Wire Wire Line
+	4850 1800 4850 1650
+Wire Wire Line
+	4850 1650 5950 1650
+Wire Wire Line
+	5950 1650 5950 2500
+Wire Wire Line
+	5950 2500 6500 2500
+Wire Wire Line
+	4850 2250 5850 2250
+Wire Wire Line
+	5850 2250 5850 2600
+Wire Wire Line
+	5850 2600 6500 2600
+Wire Wire Line
+	4850 2450 5750 2450
+Wire Wire Line
+	5750 2450 5750 2700
+Wire Wire Line
+	5750 2700 6500 2700
+Wire Wire Line
+	4850 2800 6500 2800
+Wire Wire Line
+	4850 3000 5750 3000
+Wire Wire Line
+	5750 3000 5750 2900
+Wire Wire Line
+	5750 2900 6500 2900
+Wire Wire Line
+	4850 3200 5850 3200
+Wire Wire Line
+	5850 3200 5850 3000
+Wire Wire Line
+	5850 3000 6500 3000
+Wire Wire Line
+	4850 3550 6000 3550
+Wire Wire Line
+	6000 3550 6000 3100
+Wire Wire Line
+	6000 3100 6500 3100
+Wire Wire Line
+	6500 3200 6100 3200
+Wire Wire Line
+	6100 3200 6100 3750
+Wire Wire Line
+	6100 3750 4850 3750
+Wire Wire Line
+	6500 3300 6250 3300
+Wire Wire Line
+	6250 3300 6250 4100
+Wire Wire Line
+	6250 4100 4850 4100
+Wire Wire Line
+	4850 4300 6350 4300
+Wire Wire Line
+	6350 4300 6350 3400
+Wire Wire Line
+	6350 3400 6500 3400
+$Comp
+L CONN_3 P5
+U 1 1 5307A296
+P 6000 5550
+F 0 "P5" V 5950 5550 50  0000 C CNN
+F 1 "3 Pin TB" V 6050 5550 40  0000 C CNN
+F 2 "" H 6000 5550 60  0000 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%205.0mm%20Series.pdf" H 6000 5550 60  0001 C CNN
+F 4 "Phoenix Contact" H 6000 5550 60  0001 C CNN "MFG Name"
+F 5 "1935174" H 6000 5550 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 6000 5550 60  0001 C CNN "Distributor"
+F 7 "277-1578-ND" H 6000 5550 60  0001 C CNN "Distributor Part Number"
+F 8 "http://www.digikey.com/product-detail/en/1935174/277-1578-ND/568615" H 6000 5550 60  0001 C CNN "Distributor Part Link"
+	1    6000 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5550 5650 5550
+Wire Wire Line
+	5650 5450 5450 5450
+Wire Wire Line
+	5450 5450 5450 5300
+Wire Wire Line
+	5450 5300 5250 5300
+Wire Wire Line
+	5250 5800 5450 5800
+Wire Wire Line
+	5450 5800 5450 5650
+Wire Wire Line
+	5450 5650 5650 5650
 $EndSCHEMATC

@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 21/02/2014 20:49:00
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/02/2014 16:11:09
 
 BeginCmp
 TimeStamp = /52F141E3/52F62ADF;
 Reference = ARD1;
 ValeurCmp = ARDUINOPINS;
-IdModule  = ;
+IdModule  = ARDUINO_UNO_HE;
 EndCmp
 
 BeginCmp
@@ -424,98 +424,98 @@ BeginCmp
 TimeStamp = /52F141E3/52F82727;
 Reference = R29;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F68813;
 Reference = R30;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F6880D;
 Reference = R31;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F67D10;
 Reference = R32;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F67CEA;
 Reference = R33;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F68879;
 Reference = R34;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F68873;
 Reference = R35;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F6886D;
 Reference = R36;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F6885D;
 Reference = R37;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F6894B;
 Reference = R38;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F6DE61;
 Reference = R39;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F82098;
 Reference = R40;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F67CB3;
 Reference = R41;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F141E3/52F826E8;
 Reference = R42;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp
@@ -543,7 +543,7 @@ BeginCmp
 TimeStamp = /52F141E3/5307173C;
 Reference = R46;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805_SolderBridge;
 EndCmp
 
 BeginCmp

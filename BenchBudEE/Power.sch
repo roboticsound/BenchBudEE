@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title ""
-Date "20 feb 2014"
+Date "23 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -52,9 +52,14 @@ L CONN_12X2 P1
 U 1 1 52F2DAD0
 P 3000 2300
 F 0 "P1" H 3000 2950 60  0000 C CNN
-F 1 "CONN_12X2" V 3000 2300 50  0000 C CNN
+F 1 "24Pin MiniFit JR" V 3000 2300 50  0000 C CNN
 F 2 "" H 3000 2300 60  0000 C CNN
-F 3 "" H 3000 2300 60  0000 C CNN
+F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0039301240_PCB_HEADERS.pdf" H 3000 2300 60  0001 C CNN
+F 4 "Molex" H 3000 2300 60  0001 C CNN "MFG Name"
+F 5 "39-30-1240" H 3000 2300 60  0001 C CNN "MFG Part Number"
+F 6 "Mouser" H 3000 2300 60  0001 C CNN "Distributor"
+F 7 "538-39-30-1240" H 3000 2300 60  0001 C CNN "Distributor Part Number"
+F 8 "http://uk.mouser.com/ProductDetail/Molex/39-30-1240/?qs=sGAEpiMZZMs%252bGHln7q6pm%252bS0pk2Wo0Xxrf8ldfSZpwQ=" H 3000 2300 60  0001 C CNN "Distributor Part Link"
 	1    3000 2300
 	1    0    0    -1  
 $EndComp
