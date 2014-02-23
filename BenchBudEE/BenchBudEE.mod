@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  23/02/2014 17:09:35
+PCBNEW-LibModule-V1  23/02/2014 23:11:21
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,6 +6,7 @@ $INDEX
 3_PIN_TB
 4-SMD
 ATX_24Header
+PWR_SWITCH
 SM0805_SolderBridge
 SMA
 TE-SPDT
@@ -381,6 +382,54 @@ Ne 0 ""
 Po 0 -12.8
 $EndPAD
 $EndMODULE ATX_24Header
+$MODULE PWR_SWITCH
+Po 0 0 0 15 530A8011 00000000 ~~
+Li PWR_SWITCH
+Sc 0
+AR 
+Op 0 0 0
+T0 2 -3.4 1 1 0 0.15 N I 21 N "PWR_SWITCH"
+T1 4.3 3.3 1 1 0 0.15 N V 21 N "VAL**"
+DS 6.2 -2.2 6.2 2.2 0.15 21
+DS 6.2 2.2 -2.2 2.2 0.15 21
+DS -2.2 2.2 -2.2 -2.2 0.15 21
+DS -2.2 -2.2 6.2 -2.2 0.15 21
+$PAD
+Sh "1" C 1.2 1.2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 1.2 1.2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 0
+$EndPAD
+$PAD
+Sh "3" C 1.2 1.2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4 0
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -2.1 0
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 6.1 0
+$EndPAD
+$EndMODULE PWR_SWITCH
 $MODULE SM0805_SolderBridge
 Po 0 0 0 15 530A2B2E 00000000 ~~
 Li SM0805_SolderBridge
