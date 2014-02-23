@@ -1,8 +1,7 @@
-PCBNEW-LibModule-V1  23/02/2014 16:28:52
+PCBNEW-LibModule-V1  23/02/2014 17:09:35
 # encoding utf-8
 Units mm
 $INDEX
-0805_SolderBridge
 12_PIN_TB
 3_PIN_TB
 4-SMD
@@ -11,15 +10,6 @@ SM0805_SolderBridge
 SMA
 TE-SPDT
 $EndINDEX
-$MODULE 0805_SolderBridge
-Po 0 0 0 15 530828C1 00000000 ~~
-Li 0805_SolderBridge
-Sc 0
-AR 
-Op 0 0 0
-T0 0 0 1 1 0 0.15 N V 21 N "0805_SolderBridge"
-T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
-$EndMODULE 0805_SolderBridge
 $MODULE 12_PIN_TB
 Po 0 0 0 15 530A1143 00000000 ~~
 Li 12_PIN_TB
@@ -392,7 +382,7 @@ Po 0 -12.8
 $EndPAD
 $EndMODULE ATX_24Header
 $MODULE SM0805_SolderBridge
-Po 0 0 0 15 530A21B9 00000000 ~~
+Po 0 0 0 15 530A2B2E 00000000 ~~
 Li SM0805_SolderBridge
 Sc 0
 AR 
@@ -432,7 +422,7 @@ Sh "1" T 2 0.3 0.29 0 3520
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.4191 0.41
+Po -0.4953 0.41
 $EndPAD
 $PAD
 Sh "1" R 2 0.15 0 0 0
@@ -446,7 +436,7 @@ Sh "1" R 2 0.15 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.42926 0.6235
+Po -0.50546 0.6235
 $EndPAD
 $PAD
 Sh "2" R 0.6 1.397 0 0 0
