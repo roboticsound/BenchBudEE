@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "23 feb 2014"
+Date "24 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -60,7 +60,12 @@ P 5000 2850
 F 0 "U2" H 5300 2450 60  0000 C CNN
 F 1 "AP5726" H 5000 2850 60  0000 C CNN
 F 2 "" H 4950 2900 60  0000 C CNN
-F 3 "" H 4950 2900 60  0000 C CNN
+F 3 "http://www.diodes.com/datasheets/AP5726.pdf" H 4950 2900 60  0001 C CNN
+F 4 "Diodes Incorporated" H 5000 2850 60  0001 C CNN "MFG Name"
+F 5 "AP5726WG-7" H 5000 2850 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 5000 2850 60  0001 C CNN "Distributor"
+F 7 "AP5726WG-7DICT-ND" H 5000 2850 60  0001 C CNN "Distributor Part Number"
+F 8 "http://www.digikey.com/product-detail/en/AP5726WG-7/AP5726WG-7DICT-ND/2639342" H 5000 2850 60  0001 C CNN "Distributor Part Link"
 	1    5000 2850
 	1    0    0    -1  
 $EndComp
@@ -104,7 +109,7 @@ L C C1
 U 1 1 52F3FC6F
 P 4050 2300
 F 0 "C1" H 4050 2400 40  0000 L CNN
-F 1 "C" H 4056 2215 40  0000 L CNN
+F 1 "1uF" H 4056 2215 40  0000 L CNN
 F 2 "~" H 4088 2150 30  0000 C CNN
 F 3 "~" H 4050 2300 60  0000 C CNN
 	1    4050 2300
@@ -124,9 +129,14 @@ L INDUCTOR L1
 U 1 1 52F3FC91
 P 5250 1950
 F 0 "L1" V 5200 1950 40  0000 C CNN
-F 1 "INDUCTOR" V 5350 1950 40  0000 C CNN
+F 1 "22uH" V 5350 1950 40  0000 C CNN
 F 2 "~" H 5250 1950 60  0000 C CNN
-F 3 "~" H 5250 1950 60  0000 C CNN
+F 3 "http://www.yuden.co.jp/ut/product/category/inductor/NR4012T220M.pdf" H 5250 1950 60  0001 C CNN
+F 4 "Taiyo Yuden" H 5250 1950 60  0001 C CNN "MFG Name"
+F 5 "NR4012T220M" H 5250 1950 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 5250 1950 60  0001 C CNN "Distributor"
+F 7 "587-1660-1-ND" H 5250 1950 60  0001 C CNN "Distributor Part Number"
+F 8 "http://www.digikey.com/product-detail/en/NR4012T220M/587-1660-1-ND/1008275" H 5250 1950 60  0001 C CNN "Distributor Part Link"
 	1    5250 1950
 	0    -1   -1   0   
 $EndComp
@@ -142,9 +152,14 @@ L DIODESCH D3
 U 1 1 52F3FCBF
 P 6000 1950
 F 0 "D3" H 6000 2050 40  0000 C CNN
-F 1 "DIODESCH" H 6000 1850 40  0000 C CNN
+F 1 "B0540WS-7" H 6000 1850 40  0000 C CNN
 F 2 "~" H 6000 1950 60  0000 C CNN
-F 3 "~" H 6000 1950 60  0000 C CNN
+F 3 "http://www.diodes.com/datasheets/ds30524.pdf" H 6000 1950 60  0001 C CNN
+F 4 "Diodes Incorporated" H 6000 1950 60  0001 C CNN "MFG Name"
+F 5 "B0540WS-7" H 6000 1950 60  0001 C CNN "MFG Part Number"
+F 6 "DigiKey" H 6000 1950 60  0001 C CNN "Distributor"
+F 7 "B0540WSDICT-ND" H 6000 1950 60  0001 C CNN "Distributor Part Number"
+F 8 "http://www.digikey.com/product-detail/en/B0540WS-7/B0540WSDICT-ND/816549" H 6000 1950 60  0001 C CNN "Distributor Part Link"
 	1    6000 1950
 	1    0    0    -1  
 $EndComp
@@ -160,7 +175,7 @@ L C C2
 U 1 1 52F3FCE4
 P 8950 2200
 F 0 "C2" H 8950 2300 40  0000 L CNN
-F 1 "C" H 8956 2115 40  0000 L CNN
+F 1 "1uF" H 8956 2115 40  0000 L CNN
 F 2 "~" H 8988 2050 30  0000 C CNN
 F 3 "~" H 8950 2200 60  0000 C CNN
 	1    8950 2200
@@ -190,7 +205,7 @@ L R R7
 U 1 1 52F3FD3D
 P 5900 3350
 F 0 "R7" V 5980 3350 40  0000 C CNN
-F 1 "R" V 5907 3351 40  0000 C CNN
+F 1 "15R" V 5907 3351 40  0000 C CNN
 F 2 "~" V 5830 3350 30  0000 C CNN
 F 3 "~" H 5900 3350 30  0000 C CNN
 	1    5900 3350
